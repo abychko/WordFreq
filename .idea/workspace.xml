@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33af86ae-2e6c-43ff-af61-83d4fef16bf1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CsvExporter.java" afterPath="$PROJECT_DIR$/src/CsvExporter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Vocabulary.java" afterPath="$PROJECT_DIR$/src/Vocabulary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WordEntry.java" afterPath="$PROJECT_DIR$/src/WordEntry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WordFreq.java" afterPath="$PROJECT_DIR$/src/WordFreq.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WordFreq.iws" />
@@ -82,7 +78,7 @@
       <file leaf-file-name="CsvExporter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CsvExporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="87" selection-start="574" selection-end="574" vertical-scroll-proportion="0.33962265" vertical-offset="0" max-vertical-offset="795">
+            <state line="18" column="89" selection-start="576" selection-end="576" vertical-scroll-proportion="0.33962265" vertical-offset="0" max-vertical-offset="795">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -523,17 +519,21 @@
       <workItem from="1378905449728" duration="1273000" />
       <workItem from="1378906783576" duration="1224000" />
       <workItem from="1378910722485" duration="1279000" />
-      <workItem from="1378912504018" duration="4500000" />
+      <workItem from="1378912504018" duration="4525000" />
     </task>
     <task id="LOCAL-00001" summary="new classes, all words can be loaded to Map">
       <created>1378885895639</created>
       <updated>1378885895639</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="csv export is done">
+      <created>1378917024578</created>
+      <updated>1378917024578</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36045000" />
+    <option name="totallyTimeSpent" value="36070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="32" width="2462" height="1357" extended-state="4" />
@@ -575,7 +575,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="new classes, all words can be loaded to Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="new classes, all words can be loaded to Map" />
+    <MESSAGE value="csv export is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="csv export is done" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -690,7 +691,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CsvExporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="87" selection-start="574" selection-end="574" vertical-scroll-proportion="0.33962265" vertical-offset="0" max-vertical-offset="795">
+        <state line="18" column="89" selection-start="576" selection-end="576" vertical-scroll-proportion="0.33962265" vertical-offset="0" max-vertical-offset="795">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
