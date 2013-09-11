@@ -10,19 +10,20 @@ public class WordFreq {
 
     public static void main(String args[]) throws FileNotFoundException {
 
+        final String exportFile = "/tmp/voc_export.csv";
+
         if (args.length > 0) {
-
-            Vocabulary mVocabulary = new Vocabulary();
             Scanner mScanner = new Scanner(new File(args[0]));
+            Vocabulary mVocabulary = new Vocabulary();
             WordExtractor mExtractor = new WordExtractor();
-
             while (mScanner.hasNextLine()) {
                 String mLine = mScanner.nextLine().toLowerCase();
                 String[] words = mExtractor.extractWords(mLine);
                 mVocabulary.updateWords(words);
             }
-            System.out.println(mVocabulary.printAll());
-            System.out.println("Vocabulary contains " + mVocabulary.getSize() + " pairs");
+            System.out.println("\nVocabulary contains " + mVocabulary.getSize() + " pairs");
+            Exporter mExporter = new CsvExporter();
+            mExporter.export(mVocabulary, exportFile);
         } else {
             System.out.println("Nothing to read");
         }

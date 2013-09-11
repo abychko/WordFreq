@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33af86ae-2e6c-43ff-af61-83d4fef16bf1" name="Default" comment="" />
+    <list default="true" id="33af86ae-2e6c-43ff-af61-83d4fef16bf1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CsvExporter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exporter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Vocabulary.java" afterPath="$PROJECT_DIR$/src/Vocabulary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WordExtractor.java" afterPath="$PROJECT_DIR$/src/WordExtractor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WordFreq.java" afterPath="$PROJECT_DIR$/src/WordFreq.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="WordFreq.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,10 +72,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WordFreq.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WordFreq.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WordFreq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="1" selection-start="909" selection-end="909" vertical-scroll-proportion="0.54785895" vertical-offset="0" max-vertical-offset="794">
+            <state line="25" column="16" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CsvExporter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CsvExporter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="8" selection-start="308" selection-end="308" vertical-scroll-proportion="0.26448363" vertical-offset="0" max-vertical-offset="794">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,31 +92,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordExtractor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WordExtractor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="51" selection-start="160" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Vocabulary.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Vocabulary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="34" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+            <state line="36" column="4" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
               <folding>
-                <element signature="e#116#133#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ColdDays.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ColdDays.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9242" column="100" selection-start="650072" selection-end="650072" vertical-scroll-proportion="-12.48" vertical-offset="138318" max-vertical-offset="199830">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -111,6 +110,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -118,18 +125,20 @@
         <option value="$PROJECT_DIR$/src/FileParser.java" />
         <option value="$PROJECT_DIR$/src/FileReader.java" />
         <option value="$PROJECT_DIR$/src/WordExtractor.java" />
-        <option value="$PROJECT_DIR$/src/Vocabulary.java" />
+        <option value="$PROJECT_DIR$/src/Exporter.java" />
         <option value="$PROJECT_DIR$/src/WordFreq.java" />
+        <option value="$PROJECT_DIR$/src/Vocabulary.java" />
+        <option value="$PROJECT_DIR$/src/CsvExporter.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="10" />
     <option name="y" value="32" />
-    <option name="width" value="2480" />
+    <option name="width" value="2468" />
     <option name="height" value="1357" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -138,7 +147,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -157,7 +166,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,7 +201,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -441,29 +450,49 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="33af86ae-2e6c-43ff-af61-83d4fef16bf1" name="Default" comment="" />
       <created>1378725293739</created>
       <updated>1378725293739</updated>
       <workItem from="1378725296483" duration="2839000" />
-      <workItem from="1378728432429" duration="16037000" />
+      <workItem from="1378728432429" duration="16736000" />
+      <workItem from="1378800910397" duration="14000" />
+      <workItem from="1378835240566" duration="239000" />
+      <workItem from="1378876917818" duration="1143000" />
+      <workItem from="1378880851969" duration="4764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18876000" />
+    <option name="totallyTimeSpent" value="25735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="32" width="2480" height="1357" extended-state="4" />
-    <editor active="false" />
+    <frame x="10" y="32" width="2468" height="1357" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924837" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39950982" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -478,11 +507,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24989891" sideWeight="0.67075163" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24949208" sideWeight="0.67075163" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924837" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924837" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -504,46 +534,110 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/WordFreq.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="41" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/icedtea-bin-7/jre/lib/rt.jar!/java/lang/String.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="30" selection-start="7031" selection-end="7031" vertical-scroll-proportion="0.33289987" vertical-offset="2324" max-vertical-offset="3315">
+        <state line="23" column="46" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ColdDays.txt">
+    <entry file="file://$PROJECT_DIR$/src/WordExtractor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9242" column="100" selection-start="650072" selection-end="650072" vertical-scroll-proportion="-12.48" vertical-offset="138318" max-vertical-offset="199830">
+        <state line="5" column="51" selection-start="160" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Vocabulary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="34" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+        <state line="28" column="34" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="555">
           <folding>
-            <element signature="e#116#133#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ColdDays.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9242" column="100" selection-start="650072" selection-end="650072" vertical-scroll-proportion="0.0" vertical-offset="138318" max-vertical-offset="199830" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordFreq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="46" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="525">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WordExtractor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="51" selection-start="160" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+        <state line="5" column="51" selection-start="160" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vocabulary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="34" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="555">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ColdDays.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9242" column="100" selection-start="650072" selection-end="650072" vertical-scroll-proportion="0.0" vertical-offset="138318" max-vertical-offset="199830" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordFreq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="41" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/icedtea-bin-7/jre/lib/rt.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="30" selection-start="7031" selection-end="7031" vertical-scroll-proportion="0.33289987" vertical-offset="2324" max-vertical-offset="3315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ColdDays.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9242" column="100" selection-start="650072" selection-end="650072" vertical-scroll-proportion="0.0" vertical-offset="138318" max-vertical-offset="199830" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.13224182" vertical-offset="0" max-vertical-offset="794">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.17002518" vertical-offset="0" max-vertical-offset="794">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WordFreq.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="909" selection-end="909" vertical-scroll-proportion="0.54785895" vertical-offset="0" max-vertical-offset="794">
+        <state line="25" column="16" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vocabulary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="4" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CsvExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="8" selection-start="308" selection-end="308" vertical-scroll-proportion="0.26448363" vertical-offset="0" max-vertical-offset="794">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
