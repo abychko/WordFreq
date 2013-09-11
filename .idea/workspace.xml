@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33af86ae-2e6c-43ff-af61-83d4fef16bf1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WordFreq.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CsvExporter.java" afterPath="$PROJECT_DIR$/src/CsvExporter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WordEntry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Vocabulary.java" afterPath="$PROJECT_DIR$/src/Vocabulary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WordFreq.java" afterPath="$PROJECT_DIR$/src/WordFreq.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WordFreq.iws" />
@@ -71,25 +72,45 @@
       <file leaf-file-name="WordFreq.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WordFreq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="16" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="540">
+            <state line="26" column="52" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CsvExporter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CsvExporter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CsvExporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.12531328" vertical-offset="0" max-vertical-offset="1197">
+            <state line="4" column="25" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vocabulary.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Vocabulary.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Vocabulary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="6" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="660">
+            <state line="52" column="14" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.7682119" vertical-offset="432" max-vertical-offset="1005">
+              <folding>
+                <element signature="e#1071#1455#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordEntry.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WordEntry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="21" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comparator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="17" selection-start="3985" selection-end="3985" vertical-scroll-proportion="0.0" vertical-offset="1576" max-vertical-offset="2265">
               <folding />
             </state>
           </provider>
@@ -118,17 +139,17 @@
         <option value="$PROJECT_DIR$/src/FileReader.java" />
         <option value="$PROJECT_DIR$/src/WordExtractor.java" />
         <option value="$PROJECT_DIR$/src/Exporter.java" />
-        <option value="$PROJECT_DIR$/src/WordFreq.java" />
-        <option value="$PROJECT_DIR$/src/Vocabulary.java" />
         <option value="$PROJECT_DIR$/src/CsvExporter.java" />
+        <option value="$PROJECT_DIR$/src/WordFreq.java" />
+        <option value="$PROJECT_DIR$/src/WordEntry.java" />
+        <option value="$PROJECT_DIR$/src/Vocabulary.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="32" />
-    <option name="width" value="2465" />
-    <option name="height" value="1357" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -158,6 +179,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -193,21 +215,26 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.WordFreq-param">
     <configuration default="false" name="WordFreq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -276,6 +303,19 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -302,19 +342,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -353,22 +380,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -402,6 +413,22 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="WordFreq-param" type="Application" factoryName="Application">
@@ -471,6 +498,11 @@
       <workItem from="1378876917818" duration="1143000" />
       <workItem from="1378880851969" duration="4847000" />
       <workItem from="1378890597718" duration="23000" />
+      <workItem from="1378890732205" duration="12000" />
+      <workItem from="1378898218817" duration="1916000" />
+      <workItem from="1378905449728" duration="1273000" />
+      <workItem from="1378906783576" duration="1224000" />
+      <workItem from="1378910722485" duration="1279000" />
     </task>
     <task id="LOCAL-00001" summary="new classes, all words can be loaded to Map">
       <created>1378885895639</created>
@@ -480,11 +512,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25841000" />
+    <option name="totallyTimeSpent" value="31545000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="32" width="2465" height="1357" extended-state="4" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1440" height="812" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -499,18 +531,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914925" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24938975" sideWeight="0.67075163" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924837" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24930556" sideWeight="0.67085075" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924837" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924837" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -534,13 +566,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/WordFreq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="46" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WordExtractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="51" selection-start="160" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="225">
@@ -551,33 +576,9 @@
     <entry file="file://$PROJECT_DIR$/src/Vocabulary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="34" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ColdDays.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9242" column="100" selection-start="650072" selection-end="650072" vertical-scroll-proportion="0.0" vertical-offset="138318" max-vertical-offset="199830" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordFreq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="46" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="51" selection-start="160" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vocabulary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="34" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="555">
-          <folding />
+          <folding>
+            <element signature="e#1071#1455#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -591,11 +592,6 @@
         <state line="11" column="0" selection-start="41" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/icedtea-bin-7/jre/lib/rt.jar!/java/lang/String.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="30" selection-start="7031" selection-end="7031" vertical-scroll-proportion="0.33289987" vertical-offset="2324" max-vertical-offset="3315" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ColdDays.txt">
@@ -617,24 +613,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordFreq.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/util/List.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="16" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="167" selection-end="167" vertical-scroll-proportion="-1.3863636" vertical-offset="685" max-vertical-offset="1530" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vocabulary.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="6" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+        <state line="116" column="17" selection-start="5224" selection-end="5224" vertical-scroll-proportion="2.0198677" vertical-offset="480" max-vertical-offset="6915" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="303" column="11" selection-start="11507" selection-end="11507" vertical-scroll-proportion="-18.1766" vertical-offset="12434" max-vertical-offset="17190" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="57" selection-start="6705" selection-end="6705" vertical-scroll-proportion="0.0" vertical-offset="2774" max-vertical-offset="59310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordFreq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="52" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CsvExporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.12531328" vertical-offset="0" max-vertical-offset="1197">
+        <state line="4" column="25" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="21" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="17" selection-start="3985" selection-end="3985" vertical-scroll-proportion="0.0" vertical-offset="1576" max-vertical-offset="2265">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vocabulary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="14" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.7682119" vertical-offset="432" max-vertical-offset="1005">
+          <folding>
+            <element signature="e#1071#1455#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

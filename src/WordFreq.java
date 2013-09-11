@@ -7,7 +7,6 @@ import java.util.Scanner;
  */
 public class WordFreq {
 
-
     public static void main(String args[]) throws FileNotFoundException {
 
         final String exportFile = "/tmp/voc_export.csv";
@@ -24,6 +23,7 @@ public class WordFreq {
             System.out.println("\nVocabulary contains " + mVocabulary.getSize() + " pairs");
             Exporter mExporter = new CsvExporter();
             mExporter.export(mVocabulary, exportFile);
+            System.out.println(mVocabulary.asList());
         } else {
             System.out.println("Nothing to read");
         }

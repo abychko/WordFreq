@@ -1,5 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Vocabulary {
 
@@ -32,7 +31,31 @@ public class Vocabulary {
     public int getSize() {
         return _vocabulary.size();
     }
-    //  public Map sortByValue(){
+
+    public List<WordEntry> asList() {
+        List mList = new ArrayList<WordEntry>();
+        for (String key : _vocabulary.keySet()) {
+            mList.add(new WordEntry(key, _vocabulary.get(key)));
+
+        }
+
+        Collections.sort(mList, new Comparator<WordEntry, WordEntry>() {
+
+            @Override
+            public int compare(WordEntry we1, WordEntry we2) {
+                int ret = 0;
+                if (we1.get_frequency() == we2.get_frequency()) {
+                    ret = we1.get_word().compareToIgnoreCase(we2.get_word());
+                }
+                return ret;
+            }
+
+            )
+        };
+
+        return mList;
+    }
+
 
     //  }
 }
