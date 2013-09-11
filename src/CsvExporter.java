@@ -8,7 +8,7 @@ public class CsvExporter implements Exporter {
     }
 
     public void export(Vocabulary vocabulary, String path) {
-        
+
 
     }
 }
