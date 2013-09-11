@@ -15,6 +15,7 @@ public class WordFreq {
             Scanner mScanner = new Scanner(new File(args[0]));
             Vocabulary mVocabulary = new Vocabulary();
             WordExtractor mExtractor = new WordExtractor();
+
             while (mScanner.hasNextLine()) {
                 String mLine = mScanner.nextLine().toLowerCase();
                 String[] words = mExtractor.extractWords(mLine);
@@ -23,7 +24,6 @@ public class WordFreq {
             System.out.println("\nVocabulary contains " + mVocabulary.getSize() + " pairs");
             Exporter mExporter = new CsvExporter();
             mExporter.export(mVocabulary, exportFile);
-            System.out.println(mVocabulary.asList());
         } else {
             System.out.println("Nothing to read");
         }
