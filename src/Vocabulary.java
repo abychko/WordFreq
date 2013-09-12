@@ -38,8 +38,7 @@ public class Vocabulary {
             mList.add(new WordEntry(key, _vocabulary.get(key)));
 
         }
-        Collections.sort(mList);
-
+        Collections.sort(mList, Collections.reverseOrder());
         return mList;
     }
 
