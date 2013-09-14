@@ -16,7 +16,9 @@ public class CsvExporter implements Exporter {
         try {
             FileWriter writer = new FileWriter(path);
             for (WordEntry wordEntry : mList) {
-                writer.write(wordEntry.get_frequency() + ";" + wordEntry.get_word() + "\n");
+                //writer.write(wordEntry.get_frequency() + ";" + wordEntry.get_word() + "\n");
+                writer.write(wordEntry.get_word() + ";" + wordEntry.get_frequency() + ";" +
+                        String.format("%.2f", ((float) wordEntry.get_frequency() / (float) vocabulary.getSize()) * 100) + "%\n");
             }
             writer.close();
         } catch (IOException e) {
